@@ -26,12 +26,23 @@
     font-family: arial;
     font-weight: bold;
 }
+.character-MrsAlving:hover {
+    box-shadow: 5px 5px 10px rgba(211, 49, 49, 0.5); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);/* Shadow with an interesting color and blur */
+    border: 2px solid #d37542; /* Interesting border */
+}
 
 .character-Manders {
     color: rgb(32, 235, 14);
     font-weight: bold;
     font-family: arial; 
 }
+.character-Manders:hover {
+    box-shadow: 5px 5px 10px rgba(60, 222, 42, 0.5); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);/* Shadow with an interesting color and blur */
+    border: 2px solid #1ad736; /* Interesting border */
+}
+
 
 /* Define styles for character names */
 .name {
@@ -39,5 +50,46 @@
     font-weight: bold;
     font-family: lucida Sans;
     color: rgb(7, 192, 243);
+}
+
+/* Style for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #a9dde6; 
+    border: 2px solid #16a9e9; 
+    margin-top: 20px; 
+}
+
+/* Style for table headers */
+th {
+    background-color:  #a9dde6; 
+    color: rgb(21, 31, 224); /* White text for header cells */
+    text-align: center; /* Center-align text in header cells */
+    padding: 12px; /* Add padding to header cells */
+    border: 1px solid #16a9e9/* Add borders to header cells */
+}
+
+/* Style for alternating rows (row stripes) */
+tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* Alternate row background color */
+}
+
+/* Style for table data cells */
+td {
+    text-align: center; /* Center-align text in data cells */
+    padding: 10px; /* Add padding to data cells */
+    border: 1px solid #16a9e9; /* Add borders to data cells */
+}
+
+/* Style for the first column (Character) */
+td:first-child {
+    font-weight: bold; /* Make the first column text bold */
+}
+
+/* Style for the last two columns (Actor and Understudy) */
+td:nth-child(2),
+td:nth-child(3) {
+    font-style: normal /* Make the last two columns text italic */
 }
 
