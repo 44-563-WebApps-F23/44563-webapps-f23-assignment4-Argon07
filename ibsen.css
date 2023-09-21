@@ -1,0 +1,43 @@
+/* Style for spoken text */
+.speech {
+    font-family: monospace;
+    font-size: 16px;
+    color: black;
+}
+
+/* Style for directions */
+.direction {
+    font-family: serif;
+    font-size: 14px;
+    color: black;
+    background-color: #f2f2f2; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+/* Change background-color and text color on hover for directions */
+.direction:hover {
+    background-color: #24525a; 
+    color: rgb(214, 189, 232); 
+}
+
+/* Character-specific styles */
+.character-MrsAlving {
+    color: rgb(204, 31, 31);
+    font-family: arial;
+    font-weight: bold;
+}
+
+.character-Manders {
+    color: rgb(32, 235, 14);
+    font-weight: bold;
+    font-family: arial; 
+}
+
+/* Define styles for character names */
+.name {
+    text-align: center;
+    font-weight: bold;
+    font-family: lucida Sans;
+    color: rgb(7, 192, 243);
+}
+
